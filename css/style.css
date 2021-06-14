@@ -76,7 +76,7 @@ main {
         display: block;
     }
     .number {
-        font-size: 1.7em;
+        font-size: 1.5em;
         line-height: 2em;
         font-weight: 700;
     }
@@ -103,10 +103,13 @@ footer {
         }
         .card--img {
             background: url('../images/image-header-desktop.jpg') hsla(var(--accent-color), 1);
+            background-repeat: no-repeat;
+            background-size: cover;
             width: 100%;
             height: inherit;
         }
         .card--body {
+            text-align: left; 
             text-align: inline-start;
             padding: 4em;
         }
